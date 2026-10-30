@@ -1,0 +1,60 @@
+main {
+    font-family: sans-serif;
+    
+}
+
+.titulo {
+    text-align: center;
+    color: #2b69db;
+    
+}
+
+.cabecalho {
+    background-color: #2b69db;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 110%;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botaoSubmit {
+    color: white;
+    background-color: #2b69db;
+    margin: 1rem;
+    border-radius: 0.25rem;
+}
+
+.listaProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+    border: 2px solid black;
+}
+
+.mensagemCarregamento{
+    color: #2b69db;
+}
